@@ -18,7 +18,7 @@ wsgid is a mongrel2 WSGI gateway. With wsgid you will be able to run your WSGI a
 
 = OPTIONS =
 : **--version**
-show program's version number and exit 
+show program's version number and exit
 : **-h**, **--help**
 show this help message and exit
 : **--app-path**

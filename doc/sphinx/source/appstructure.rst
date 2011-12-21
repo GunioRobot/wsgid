@@ -2,7 +2,7 @@ Application Structure
 =====================
 
 
-wsgid can load an app in two forms: 
+wsgid can load an app in two forms:
 
   * Installed system-wide;
   * Installed inside a folder on disk;
@@ -14,7 +14,7 @@ When not system-wide installed, the folder where an app is installed must have a
 
 The *logs* directory, as the name suggests is where wsgid generate all logs.
 
-The *app* directory is where you will put the application code. 
+The *app* directory is where you will put the application code.
 
 If your app resides inside a python module (typically a django app) this same module must exist inside the app folder. Remember that this path (*/var/apps/myapp/app*) will be added to *sys.path*. Taking django as an example, if you have an app named *helloapp* you must have, at the end, the following path: */var/apps/myapp/app/helloapp*.
 

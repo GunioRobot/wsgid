@@ -155,7 +155,7 @@ Command cas also add extra options do wsgid. When you run wsgid with `--help`, a
 
 
     A complete WSGI environment for mongrel2 handlers
-    
+
     Some text here...
 
     Options added by the init subcommand

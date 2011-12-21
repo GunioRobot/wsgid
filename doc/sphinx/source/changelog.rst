@@ -40,7 +40,7 @@ Version 0.2
   * bugfix: Fatal errors are now correctly logged;
   * Internal refactorings.
 
-  
+
 Version 0.1
 ***********
 

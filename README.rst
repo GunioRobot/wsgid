@@ -10,7 +10,7 @@ Install
 =======
 
 To install just clone this repo and run: (pip package coming soon)
-   
+
    sudo python setup.py install
 
 Use example
@@ -24,7 +24,7 @@ To start an application just call wsgid from the command line.
 This will load the app located at /path/to/the/app and be ready to process requests. wsgid automatically detects what kind of application it will load.
 The <send_ident> value is the same value that is in mongrel2 config db.
 
-If wsgid is not able do detect the aplication WSGI framework you can use the --wsgi-app option. 
+If wsgid is not able do detect the aplication WSGI framework you can use the --wsgi-app option.
    wsgid --app-path=/path/to/the/app --recv=tcp://127.0.0.1:8889 --send=tcp://127.0.0.1:8890 --uuid=<send_ident> --wsgi-app=my.package.application
 
 
